@@ -1,5 +1,6 @@
 button {
     background: plum;
+
 }
 body {
     background-color: rgb(255, 255, 255);
@@ -32,5 +33,24 @@ body {
         display: inline;
         font-size: 60px;
         color: aqua;
+    }
+}
+@media (min-width: 1228px) {
+    .barra {
+        height: 100px;
+        background-color: cornflowerblue;
+    }
+    .tablet{
+        display: none;
+    }
+    .desktop {
+        display: inline;
+        font-size: 90px;
+        color: darkgreen;
+    }
+} 
+@media (min-width: 500px) {
+    .barra {
+
     }
 }
