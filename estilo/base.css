@@ -25,4 +25,12 @@ body {
         width: 80px;
         background-color: tomato;
     }
+    .mobile{
+        display: none;
+    }
+    .tablet {
+        display: inline;
+        font-size: 60px;
+        color: aqua;
+    }
 }
