@@ -21,9 +21,9 @@ function abrir(num){
         document.getElementById("aba3").disabled = true;
         document.getElementById("a3").style.display = "block";
         pegar_hora();
-        document.getElementById("hd").volue = hd;
-        document.getElementById("md").volue = md;
-        document.getElementById("sd").volue = sd;
+        document.getElementById("hd").value = hd;
+        document.getElementById("md").value = md;
+        document.getElementById("sd").value = sd;
     }
 
     if(num== "4"){
